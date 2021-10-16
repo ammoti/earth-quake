@@ -19,7 +19,8 @@ Earth-Quake is a API that returns earthquakes nearby by given coordinates.
 ```vahap@topGG:~$ dotnet restore```\
 ```vahap@topGG:~$ dotnet build```\
 ```vahap@topGG:~$ dotnet test```\
-```vahap@topGG:~$ dotnet run --p .\API\EarthQuake.API.csproj```
+```vahap@topGG:~$ dotnet run --project .\API\EarthQuake.API.csproj```
+```vahap@topGG:~$ curl -X GET "https://localhost:5001/Earthquake/Ping" -H  "accept: */*"```
 
 ## Layers
 **API** : OpenAPI.
